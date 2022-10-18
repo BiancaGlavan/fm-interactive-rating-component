@@ -87,6 +87,11 @@ body {
         font-weight: 400;
         letter-spacing: 1px;
         cursor: pointer;
+
+        &:hover {
+            background-color: $white;
+            color: $primary-orange;
+        }
     }
 
     .container-thank-you {

@@ -70,6 +70,10 @@ body {
   letter-spacing: 1px;
   cursor: pointer;
 }
+.card .submit-btn:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
 .card .container-thank-you img {
   display: block;
   margin-left: auto;
