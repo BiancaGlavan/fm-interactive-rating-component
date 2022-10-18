@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    ;
+}
+
+$primary-orange: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsl(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+
+
+body {
+    background-color: $very-dark-blue;
+}
+
+.card {
+    background-color: $dark-blue;
+    max-width: 300px;
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+    img {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: $white;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: $light-grey;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 30px;
+
+    }
+
+    .points-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 30px;
+
+        .point {
+            color: $light-grey;
+            cursor: pointer;
+            background-color: hsl(213, 18%, 24%);
+            width: 35px;
+            height: 35px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &.selected {
+                background-color: $light-grey;
+                color: $white;
+            }
+
+            &:hover {
+                background-color: $primary-orange;
+                color: $white;
+            }
+        }
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        background-color: $primary-orange;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    .container-thank-you {
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+        .points-selected {
+            background-color: hsl(213, 18%, 24%);
+            width: 70%;
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            padding: 5px;
+            font-size: 15px;
+            color: $primary-orange;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: $white;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        p {
+            color: $light-grey;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}
+
+
+
+.hide {
+    display: none;
+}
