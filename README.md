@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component
 
-- Live Site URL: [incomparable-hummingbird-625132.netlify.app](https://incomparable-hummingbird-625132.netlify.app/)
+- Live Site URL: [main--incomparable-hummingbird-625132.netlify.app](https://main--incomparable-hummingbird-625132.netlify.app/)
 
 ### Screenshot
 
